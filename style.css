@@ -1,0 +1,131 @@
+body{
+    /* padding: 0px 60px; */
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    padding: 0px 135px;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 20px 15px;
+    font-size: 15px;
+}
+/* .navbar .logo_container{
+    font-weight: 500;
+} */
+.top_container{
+    box-sizing: border-box;
+    padding: 0px 135px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+.top_container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    width: 470px;
+    border: 2px solid #fff;
+    font-size: 58px;
+    padding: 25px;
+}
+.mid_container{
+    margin-top: 150px;
+    padding: 0px 135px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+.mid_image_container{
+    width: 65%;
+}
+.mid_image_container img{
+    width: 100%;
+}
+.mid_text_container{
+    width: 525px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 75px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-left: -150px;
+}
+.mid_text_container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.mid_text_container p{
+    font-size: 15px;
+    color: hsl(0, 0%, 55%);
+}
+.last_container{
+    margin-top: 150px;
+    padding: 0px 135px;
+}
+.last_container_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last_container_top h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+}
+.last_container_top button{
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Alata', sans-serif;
+    padding: 10px 50px;
+    border: 2px solid hsl(0, 0%, 41%);
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.last_container_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.last_container_gallery .creation_image{
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+.last_container_gallery .creation_image img{
+    filter: brightness(50%);
+}
+.last_container_gallery .creation_image p{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    z-index: auto;
+    margin-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    width: 50%;   
+}
