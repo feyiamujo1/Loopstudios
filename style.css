@@ -3,7 +3,7 @@ body{
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
 }
-.sidebar{
+.sidebar, .menu_btn_container{
     display: none;
 }
 .navbar{
@@ -347,6 +347,9 @@ footer .socials img:hover{
         text-align: left;
         margin: 0 0 5px;
         text-transform: uppercase;
+    }
+    .menu_btn_container{
+        display: block;
     }
     .navbar .menu_btn_container #btnmenu{
         display: block;
