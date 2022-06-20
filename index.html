@@ -11,20 +11,28 @@
     <title>Loop studio</title>
 </head>
 <body>
+    <div id="sidebar" class="sidebar">
+    </div>
     <nav class="navbar">
         <div class="logo_container">
-            <h1 class="logo">loopstudios</h1>
+            <img src="/images/logo.svg"  class="logo" alt="logo">
         </div>
-        <ul>
+        <ul id="navlinks">
             <li>About</li>
             <li>Careers</li>
             <li>Events</li>
             <li>Products</li>
             <li>Support</li>
         </ul>
+        <div class="menu_btn_container">
+            <img id="btnmenu" src="images/menu.png" alt="menu" onclick="toggleSideBar(true)">
+            <img id="btnclose" src="/images/icon-close.svg" alt="close" onclick="toggleSideBar(false)">
+        </div>
     </nav>
     <div class="top_container">
-        <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        <div class="top_text_container">
+            <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        </div>
     </div>
     
     <div class="mid_container">
@@ -48,64 +56,69 @@
             </button>
         </div>
         <div class="last_container_gallery">
-            <div class="creation_image">
+            <div class="creation_image image_one">
                 <img src="images/desktop/image-deep-earth.jpg" alt="creation image"/>
                 <p>DEEP <br> EARTH</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_two">
                 <img src="images/desktop/image-night-arcade.jpg" alt="creation image"/>
                 <p>NIGHT <br> ARCADE</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_three">
                 <img src="images/desktop/image-soccer-team.jpg" alt="creation image"/>
                 <p>SOCCER <br> TEAM VR</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_four">
                 <img src="images/desktop/image-grid.jpg" alt="creation image"/>
                 <p>THE <br> GRID</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_five">
                 <img src="images/desktop/image-from-above.jpg" alt="creation image"/>
                 <p>FROM UP <br> ABOVE VR</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_six">
                 <img src="images/desktop/image-pocket-borealis.jpg" alt="creation image"/>
                 <p>POCKET <br> BOREALIS</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_seven">
                 <img src="images/desktop/image-curiosity.jpg" alt="creation image"/>
                 <p>THE <br> CURIOSITY</p>
             </div>
-            <div class="creation_image">
+            <div class="creation_image image_eight">
                 <img src="images/desktop/image-fisheye.jpg" alt="creation image"/>
                 <p>MAKE IT <br> FISHEYE</p>
             </div>
         </div>
     </div>
     <footer>
-        <div class="upper_footer">
-            <h1 class="bottom_logo">loopstudios</h1>
-            <div class="socials">
-                <img src="images/icon-facebook.svg" alt="social icon">
-                <img src="images/icon-twitter.svg" alt="social icon">
-                <img src="images/icon-pinterest.svg" alt="social icon">
-                <img src="images/icon-instagram.svg" alt="social icon">
+        <div class="footer_container">
+            <div class="upper_footer">
+                <div>
+                    <h1 class="bottom_logo">loopstudios</h1>
+                </div>
+                <div class="bottom_nav">
+                    <ul>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Events</li>
+                        <li>Products</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="lower_footer">
-            <div class="bottom_nav">
-                <ul>
-                    <li>About</li>
-                    <li>Careers</li>
-                    <li>Events</li>
-                    <li>Products</li>
-                    <li>Support</li>
-                </ul>
-            </div>
-            <div class="copyright_holder">
-                <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+            <div class="lower_footer">
+                <div class="socials">
+                    <img src="images/icon-facebook.svg" alt="social icon">
+                    <img src="images/icon-twitter.svg" alt="social icon">
+                    <img src="images/icon-pinterest.svg" alt="social icon">
+                    <img src="images/icon-instagram.svg" alt="social icon">
+                </div>
+                <div class="copyright_holder">
+                    <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
